@@ -9,41 +9,38 @@
       body {
         margin: 0;
       }
-
       .father {
         display: grid;
         grid-gap: 5px;
-        grid-template-rows: 200px;
-        grid-template-columns: min-content repeat(3, 1fr);
+        grid-auto-rows: 150px;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
       }
-
-      .first {
-        background-color: red;
-      }
-
-      .second {
+      .box:nth-child(odd) {
         background-color: blue;
       }
-
-      .third {
-        background-color: yellow;
-      }
-
-      .forth {
-        background-color: green;
+      .box:nth-child(even) {
+        background-color: red;
       }
     </style>
   </head>
   <body>
     <div class="father">
-      <div class="first">
-        this is max-content this is max-contentthis is max-contentthis is
-        max-contentthis is max-contentthis is max-contentthis is max-contentthis
-        is max-contentthis is max-contentthis is max-contentthis is max-content
-      </div>
-      <div class="second"></div>
-      <div class="third"></div>
-      <div class="forth"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
     </div>
   </body>
 </html>
