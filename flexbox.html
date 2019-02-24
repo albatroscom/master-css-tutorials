@@ -14,30 +14,22 @@
         display: grid;
         grid-auto-rows: 200px;
         grid-gap: 5px;
-        grid-template-areas:
-          "header header header"
-          "sidebar content content"
-          "sidebar content content"
-          "footer footer footer";
+        grid-template-columns: repeat(3, 1fr) 3.7fr;
       }
 
       .first {
-        grid-area: header;
         background-color: red;
       }
 
       .second {
-        grid-area: sidebar;
         background-color: blue;
       }
 
       .third {
-        grid-area: content;
         background-color: yellow;
       }
 
       .forth {
-        grid-area: footer;
         background-color: green;
       }
     </style>
