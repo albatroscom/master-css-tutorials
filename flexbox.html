@@ -12,9 +12,9 @@
 
       .father {
         display: grid;
-        grid-auto-rows: 200px;
         grid-gap: 5px;
-        grid-template-columns: repeat(3, 1fr) 3.7fr;
+        grid-template-rows: 200px;
+        grid-template-columns: min-content repeat(3, 1fr);
       }
 
       .first {
@@ -36,7 +36,11 @@
   </head>
   <body>
     <div class="father">
-      <div class="first"></div>
+      <div class="first">
+        this is max-content this is max-contentthis is max-contentthis is
+        max-contentthis is max-contentthis is max-contentthis is max-contentthis
+        is max-contentthis is max-contentthis is max-contentthis is max-content
+      </div>
       <div class="second"></div>
       <div class="third"></div>
       <div class="forth"></div>
