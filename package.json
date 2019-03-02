@@ -17,5 +17,15 @@
   "bugs": {
     "url": "https://github.com/albatroscom/master-css-tutorials/issues"
   },
-  "homepage": "https://github.com/albatroscom/master-css-tutorials#readme"
+  "homepage": "https://github.com/albatroscom/master-css-tutorials#readme",
+  "dependencies": {
+    "postcss-preset-env": "^6.6.0"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-preset-env": {
+        "stage": 0
+      }
+    }
+  }
 }
