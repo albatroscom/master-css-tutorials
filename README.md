@@ -21,10 +21,10 @@ CSS Masterclass course ( Flexbox, Grid, PostCSS, CSSNext )
 - [x] Justify Content, Align Content and Place Content
 - [x] Justify Items, Align Items and Place Items
 - [x] Grid Column, Column Start and End
-- [ ] Line Naming
-- [ ] Grid Row, Row Start and End
-- [ ] Grid Area
-- [ ] Justify, Align, Place Self
+- [x] Line Naming
+- [x] Grid Row, Row Start and End
+- [x] Grid Area
+- [x] Justify, Align, Place Self
 
 ### Using CSS4
 
@@ -32,18 +32,17 @@ CSS Masterclass course ( Flexbox, Grid, PostCSS, CSSNext )
 - [ ] Configuring PostCSS
 - [ ] Testing
 
-### CSS4 Awesomeness
+### CSS4 Selectors
 
-- [ ] :matches, :not
+- [ ] :any-link, :matches, :not
 - [ ] CSS Variables
-- [ ] @custom-selector
-- [ ] @custom-media
+- [ ] @custom-selector, @custom-media
 - [ ] Media Query Ranges
-- [ ] color-mod, gray(), system-ui
+- [ ] font-varient, color-mod, gray(), system-ui
 - [ ] Nesting Rules
 
-### Conclusions
+### CSS Grid Kiss
 
-- [ ] CSS Grid Kiss
+- [ ] Introduction
 - [ ] Practice Flexbox
 - [ ] Practice Grid
