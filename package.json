@@ -19,6 +19,7 @@
     },
     "homepage": "https://github.com/albatroscom/master-css-tutorials#readme",
     "dependencies": {
+        "postcss-grid-kiss": "^2.1.2",
         "postcss-preset-env": "^6.6.0"
     },
     "postcss": {
@@ -26,7 +27,8 @@
             "postcss-preset-env": {
                 "stage": 0
             },
-            "postcss-color-mod-function": {}
+            "postcss-color-mod-function": {},
+            "postcss-grid-kiss": true
         }
     },
     "devDependencies": {
