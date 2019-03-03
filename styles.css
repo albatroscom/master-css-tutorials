@@ -28,12 +28,31 @@ li:first-child a {
     }
 } */
 
-h1 {
-    /* color: #f1c40f; */
-    /* color: gray(40); */
+/* h1 {
+    color: #f1c40f;
+    color: gray(40);
     font-family: system-ui;
-}
+} */
 
 /* h1:hover {
     color: color-mod(#f1c40f alpha(70%));
 } */
+
+main {
+    background-color: blue;
+
+    & section {
+        background-color: red;
+        width: 500px;
+        & li {
+            background-color: yellow;
+            width: 200px;
+            & a {
+                color: black;
+                &:hover {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
