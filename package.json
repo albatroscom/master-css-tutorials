@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "parcel index.html"
+        "start": "parcel e-commerce.html"
     },
     "repository": {
         "type": "git",
@@ -19,7 +19,6 @@
     },
     "homepage": "https://github.com/albatroscom/master-css-tutorials#readme",
     "dependencies": {
-        "postcss-grid-kiss": "^2.1.2",
         "postcss-preset-env": "^6.6.0"
     },
     "postcss": {
@@ -27,8 +26,7 @@
             "postcss-preset-env": {
                 "stage": 0
             },
-            "postcss-color-mod-function": {},
-            "postcss-grid-kiss": true
+            "postcss-color-mod-function": {}
         }
     },
     "devDependencies": {
