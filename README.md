@@ -28,21 +28,21 @@ CSS Masterclass course ( Flexbox, Grid, PostCSS, CSSNext )
 
 ### Using CSS4
 
-- [ ] Installing Parcel
-- [ ] Configuring PostCSS
-- [ ] Testing
+- [x] Installing Parcel
+- [x] Configuring PostCSS
+- [x] Testing
 
 ### CSS4 Selectors
 
-- [ ] :any-link, :matches, :not
-- [ ] CSS Variables
-- [ ] @custom-selector, @custom-media
-- [ ] Media Query Ranges
-- [ ] font-varient, color-mod, gray(), system-ui
-- [ ] Nesting Rules
+- [x] :any-link, :matches, :not
+- [x] CSS Variables
+- [x] @custom-selector, @custom-media
+- [x] Media Query Ranges
+- [x] font-varient, color-mod, gray(), system-ui
+- [x] Nesting Rules
 
 ### CSS Grid Kiss
 
-- [ ] Introduction
+- [x] Introduction
 - [ ] Practice Flexbox
 - [ ] Practice Grid
