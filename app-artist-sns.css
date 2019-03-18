@@ -1,0 +1,63 @@
+:root {
+    --gradientColor: linear-gradient(to right, #AA71FF, #79B6F9);
+    --boxShadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d8d8d8;
+}
+
+body, html, h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+
+.header  {
+    box-shadow: var(--boxShadow);
+    background-image: var(--gradientColor);
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between; 
+    padding: 40px 10px 10px 10px;
+    margin-bottom: 30px;
+}
+
+.header .header__title { 
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1vmax;
+}
+
+.header__title span {
+    text-transform: uppercase;
+}
+
+.header__title span:first-child {
+    display: block;
+}
+
+.header__title span:last-child {
+    margin-left: 15px;
+}
+
+.header__icon {
+    margin-left: 15px;
+}
+
+.header svg {
+    fill: white;
+}
+
+.main .match-list__button {
+    background-image: var(--gradientColor);
+    box-shadow: var(--boxShadow);
+    text-transform: uppercase;
+    color: white;
+    padding: 30px 60px;
+    border: none;
+}
